@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #777777;	
+}
+@font-face{
+	font-family: Brandon_reg;
+	src:url(../fonts/Brandon_reg.otf);
+}
+@font-face{
+	font-family:Brandon_med;
+	src:url(../fonts/Brandon_med.otf);
+}
+@font-face{
+	font-family:Brandon_light;
+	src:url(../fonts/Brandon_light.otf);
+}
+@font-face{
+	font-family:Brandon_bld;
+	src:url(../fonts/Brandon_bld.otf);
+}
+@font-face{
+	font-family:Cubano-Regular;
+	src:url(../fonts/Cubano-Regular.otf);
+}
+header{}
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;  
+}	
+.wrapper1{
+	width:80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+/*banner top start*/
+.top{
+	margin-top: 42px;
+    overflow: hidden;
+}  
+.logo{
+	width:22%;
+	float:left;
+	overflow: hidden;
+}
+.logo img{
+	width:10%;
+	padding: 7px;
+	float:left;	
+}
+.logo p{
+	font-family:Cubano-Regular;
+	font-weight: 400; 
+	font-size: 25px;
+	color: white;
+	width:10%;
+	float: left;
+	display: inline-block;
+}
+.menu{
+	width:40%;
+	margin-top: 7px;
+	float: right;
+	overflow: hidden;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li,.services2 ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	font-family:Brandon_med;
+	font-weight: 500;
+	font-size:18px;
+	color: #ffffff;
+	padding:12px;
+	text-decoration: none;	
+	transition: .5s;
+}
+.menu ul li a:hover{
+	background-color:#777777; 
+}
+/*banner top start*/
+/*banner botom start*/
+.bottom{
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 110px;
+}   
+.bottom h3{
+	font-family:Brandon_light;
+	font-weight: 300;
+	font-size:32px;
+	color:#ffffff;
+	padding: 10px;
+}
+.bottom h1{
+	font-family:Brandon_bld;
+	font-weight: 700;
+	font-size:66px;
+	color:#ffffff;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.bottom button{
+	font-family: Brandon_bld;
+    font-weight: 700;
+    font-size: 23px;
+    color: #ffffff;
+    text-transform: capitalize;	
+    background-color: transparent;
+    margin-top: 43px;
+    padding: 10px 49px;
+    border-radius: 4px;
+    transition: .5s;
+}  
+.bottom button:hover{
+	color:#000000;
+	background-color: #ffffff;
+}
+/*banner botom end*/
+/*web development start*/ /*Identity branding include*/
+.web_development,.identity_brand,.w_service,.w_clients,.a_team{
+	padding: 100px 0;   
+}
+.wrapper2{
+	width:70%;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.w_content,.b_content{
+	width:65%;
+	float: left;
+}
+.w_content h1,.b_content h1,.c_head h1,.t_head h1,.for_contact h1{
+	font-family:Brandon_light;
+	font-weight: 300;
+	font-size:60px;
+	color:#222222;
+	text-transform:capitalize;
+	padding-bottom: 35px;
+}
+.w_content h1 span,.b_content h1 span,.c_head h1 span,.t_head h1 span,.for_contact h1,.for_contact h1 span{
+	font-family:Brandon_bld;
+	font-weight: 700;
+	font-size: 60px;
+	color:#222222	
+}
+.w_content p,.b_content p,.text p,.c_head p,.talk p,.t_head p,.c_text p,.c_text p span,.t_bottom p,.for_contact p{
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 18px;
+}
+.w_image,.b_image{
+	width:25%;
+	margin-top: 15px;
+    margin-left: 60px;
+	float:left;
+}
+.w_image img,.b_image img{
+	width:100%;
+}
+/*web development end*/
+/*Identity branding start*/
+.identity_brand{
+	background-color: #fafafa;
+}
+.b_image{
+	margin-top: 65px;
+    margin-left: 0;
+}
+.b_content{
+	margin-left: 80px;
+}
+/*Identity branding end*/
+
+/*services1 start*/
+.w_service{}
+/*single start*/
+.single{
+	width:45%;
+	overflow: hidden;
+	float: left;
+    padding: 35px 0px;	
+}
+.circle1{
+	width: 18%;
+	float: left;	
+}
+.circle1 img{	
+	width:100%;
+}
+.text{
+	width:70%;
+	float: left;
+	margin-left: 18px;	
+}
+.text h4,.name,.email,.message,#wrapper2 p{
+	font-family:Brandon_med;
+	font-weight: 500;
+	font-size: 22px;
+	color:#222222;
+	text-transform: capitalize;
+}
+.text p{} 
+/*single end*/
+.single:nth-child(even){
+	margin-left: 9.5%;
+}
+/*services1 end*/
+
+/*clients start*/
+.w_clients{
+	background-color: #f3f3f3;
+}
+/*c_head start*/
+.c_head,.t_head{}
+.c_head h1,.t_head h1,.t_bottom p{
+	text-align: center;
+}
+.c_head h1 span{
+}
+.c_head p,.t_head p{
+	font-size: 22px;
+	text-align: center;
+}
+/*c_head end*/
+/*c_top start*/
+.c_top,.c_bottom{
+	padding: 70px 0 30px;
+	overflow: hidden;
+}
+.circle2,.circle3{
+	width:234px;
+    height:228px;
+    background-color: #222222;
+    border-radius: 50%;
+	float:left;
+}
+.talk1,.talk2{
+	width: 55%;
+    height: 30%;
+	float: right;
+    padding: 40px 43px;
+}
+#talkbuble1,#talkbuble2{	
+    background: white;
+    position: relative;
+    border: 1px solid #f3f3f3;    
+}
+#talkbuble1:before{
+	content:"";
+	position:absolute;
+	right:100%;
+	top:99px;
+	width:0;
+	height:0;
+	border-top: 13px solid transparent ;
+	border-right: 26px solid white;
+	border-bottom: 10px solid transparent;
+}
+.talk1 p,.talk2 p,.talk1 p span,.talk2 p span{
+	font-family:Brandon_reg;
+	font-weight: 400;
+	font-size:26px;
+	line-height: 30px;
+	padding:10px;
+}
+.talk1 p span,.talk2 p span{
+	font-size: 20px;
+	color: #7690c5;
+	padding:10px 0;	
+}
+/*c_top end*/
+/*c_bottom start*/
+.c_bottom{}
+.talk2{
+	float: left;
+}
+#talkbuble2{}
+#talkbuble2:before{
+	content:"";
+	position:absolute;
+	left:100%;
+	top:99px;
+	width:0;
+	height:0;
+	border-top: 13px solid transparent ;
+	border-left: 26px solid white;
+	border-bottom: 10px solid transparent;
+}	
+.talk2 p{}
+.talk2 p span{}
+.circle3{
+	float:right;  
+}
+/*c_bottom endf*/
+/*clients end*/
+
+/*services2 start*/
+.services_name{
+	
+	padding: 90px 0;
+}
+.wrapper2{}
+.services2{
+	padding: 40px 35px 66px;
+}
+.services2 ul{}	
+.services2 ul li,.c_icon ul li{
+	list-style: none;
+	float:left;
+	padding: 0px 27px 50px;
+}
+.services2 ul li a{
+	transition: .5s;
+}
+.services2 ul li a img{
+	width:100%;
+}
+.services2 ul li a:hover{
+	box-shadow: 5px 10px 18px #888888;
+
+}
+/*services2 end*/
+
+/*team start*/
+.a_team{
+	background-color:#111111;
+}
+/*t_head start*/
+.t_head{}
+.t_head h1,.t_head h1 span{
+	color: white;
+}
+.t_head h1 span{}
+.t_head p{}
+/*t_head end*/
+/*t_top start*/
+.t_top{
+	padding: 70px 0 30px;
+	overflow: hidden;
+}
+/*single1 start*/
+.single1{
+	width: 30%;
+	padding: 0px 0px 35px 31px;
+	float: left;
+
+}
+.circle4{
+	width:200px;
+	height: 200px;
+	border: 10px solid white;
+	border-radius: 50%;
+	margin-left: 28px;
+}	
+.c_text{
+	text-align: center;
+	text-transform: capitalize;
+	padding:16px 0;
+}
+.c_text p,.c_text p span{
+	color: #ebebeb;
+}
+.c_text p span{
+	font-size: 16px;
+}
+.c_icon{
+	margin-left: 60px;
+	overflow:hidden;
+}
+.c_icon ul{}
+#c_ic{
+	margin-left: 86px;
+}
+.c_icon ul li{
+	padding: 5px;
+}
+.c_icon ul li a{
+}
+.c_icon ul li a img{
+	width: 100%;
+}
+
+/*single1 end*/
+/*t_top end*/
+/*t-bottom start*/
+.t-bottom{}
+.t-bottom p{
+	font-size: 20px;
+	color: white;
+}
+/*t-bottom end*/
+/*team end*/
+
+/*communication start*/
+.communication{
+	background-color: #7690c5;
+	padding:100px 0;
+}
+/*for contact start*/
+.for_contact{
+	width:45%;
+	float: left;	
+}
+.for_contact h1{
+	font-family:Brandon_light;
+	font-weight: 300;
+	font-size:60px;
+	color:#ffffff;
+	text-transform:capitalize;
+	padding-bottom: 35px;	
+}
+.for_contact h1 span,.for_contact p{
+	color:#ffffff;
+}
+.for_contact p{}
+.smedia{
+	padding-top: 32px;
+	overflow: hidden;	
+}
+/*single start*/
+.single3{
+	width:45%;
+	float:left;
+	padding:22px 0;
+	overflow:hidden;	
+}
+#single3_1{
+	height: 26px;
+}
+.s3img{
+	width:20%;
+	float:left;
+}
+.s3p{
+	width:55%;
+	float:left;
+	margin-left: 12px;
+}
+.single3:nth-child(even) {
+	margin-left: 36px;
+}
+/*single end*/
+/*for contact end*/
+/*for form start*/
+.for_form{
+	width:44%;
+	float:left;
+	margin-top: 18px;
+	margin-left: 94px;
+}
+.form{}
+.placeholder{}
+.name,.email,.message{
+	font-size: 18px;
+	color:#bbbbbb;
+	width: 100%;
+	height: 38px;
+	padding: 12px;    
+}
+.message{
+	height: 156px;
+	margin-bottom: 15px;
+}
+.for_form form button{
+	font-family:Brandon_med;
+	font-weight: 500;
+    font-size: 16px;
+    color:#000000; 
+    background-color: #ffffff;
+    border-radius: 11px;
+    padding: 10px 15px;
+    opacity: 0.3;
+    transition:.5s;
+}
+.for_form form button:hover{
+	opacity: 1;
+}
+/*for form end*/
+/*communication end*/
+
+/*Footer start*/
+.footer{
+	background-color:#7690c5;
+	overflow:hidden;
+}
+#wrapper2{
+	border-top: 1px solid  #ffffff52;;
+}
+#wrapper2 p{
+	font-size: 16px;
+	text-align: center;
+	color:#ffffff;
+	padding: 30px 0px;
+}
+/*Footer end*/
